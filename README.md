@@ -32,10 +32,10 @@ Before you get started, here are the things you’ll need:
     1. Make sure a connection is selected for the “List Users with Filter” card.
     2. The only input should be Status, with “Active” selected as the value.
 2. Open the child flow, “[Child -1] Iterate List” in a new tab. 
-3. Open the child flow, “[Slack] Send Slack Message” in a new tab. 
+3. Open the child flow, “[Slack] Send Slack Message” in a new tab. On the “Slack - Send Message to Channel” card, edit the “Channel ID” field to a channel that exists (i.e. “general”) in your Slack tenant.  
 4. Scroll to the right, and make sure a connection is selected for “Slack -Send Message to Channel”. 
 5. Open the child flow, “[Child -2] Reduce List” in a new tab.
-6. Turn both the parent and child flows on.
+6. Turn both the parent, Slack, and child flows on.
 
 Note: Slack is used to show an action on each processed List item and to show how a common action can be implemented in a Child Flow for reusability. Other Workflow connections such as O365 or GMail can be substituted.
 
@@ -57,6 +57,9 @@ Note: Slack is used to show an action on each processed List item and to show ho
 5. For the “[Child -2] ReduceList” Child Flow
     8. You should see an execution for each ACTIVE user in your Okta Org
     9. The Return “memo” value should be incremented by 1 of the Input memo value.
+6. Check the Flow History for the Slack flow.  
+    10. You should see an execution for each ACTIVE user in your Okta Org.  
+    11. Also check the Slack channel you specified for messages from this Workflow for messages in the format of:  _firstname  lastname_  is ACTIVE. 
 
 Note: The Parent Flow has a Scheduled Flow as the required action card. This is arbitrary. The functionality shall be demonstrated using the Workflows ‘Test’ feature and the scheduler.
 
