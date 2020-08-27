@@ -3,7 +3,7 @@
   "title": "Intro to Lists and Child Flows",
   "description": "Provide examples of working with Lists and uses of Child Flows",
   "connectors": [
-    "okta"
+    "okta" , "slack"
   ],
   "links": [
     {
