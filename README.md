@@ -1,5 +1,5 @@
-# Intro-to-Lists-and-Child-Flows
-Okta Workflows template for List processing and Child Flows
+# **Intro to Lists and Child Flows**
+
 
 ## <span style="text-decoration:underline;">Overview</span>
 
@@ -13,7 +13,8 @@ Similarly, imagine that you have a large team of contributors for your Workflow 
 
 Lastly, we all think our flows are easy to understand but a long complex flow can be difficult to visualize and fully comprehend. In this case, Child Flows can be used to break out ‘chunks of related processing’ making the resultant Parent Flows easier to understand and maintain.
 
-<span style="text-decoration:underline;">Before you get Started / Prerequisites</span>
+
+## Before you get Started / Prerequisites
 
 Before you get started, here are the things you’ll need:
 
@@ -22,7 +23,8 @@ Before you get started, here are the things you’ll need:
 *   Access to an Okta tenant with Okta Workflows enabled for your org 
 *   Access to a tenant for Slack or some other connector to output response
 
-<span style="text-decoration:underline;">Setup Steps</span>
+
+## Setup Steps
 
 
 
@@ -37,7 +39,8 @@ Before you get started, here are the things you’ll need:
 
 Note: Slack is used to show an action on each processed List item and to show how a common action can be implemented in a Child Flow for reusability. Other Workflow connections such as O365 or GMail can be substituted.
 
-<span style="text-decoration:underline;">Testing this Flow</span>
+
+## Testing this Flow
 
 
 
@@ -61,7 +64,8 @@ Note: Slack is used to show an action on each processed List item and to show ho
 
 Note: The Parent Flow has a Scheduled Flow as the required action card. This is arbitrary. The functionality shall be demonstrated using the Workflows ‘Test’ feature and the scheduler.
 
-<span style="text-decoration:underline;">Limitations & Known Issues</span>
+
+## Limitations & Known Issues
 
 This is where you might note to the customer any known issues, edge cases, or gotchas as they think about using the flow in a real-life scenario. 
 
