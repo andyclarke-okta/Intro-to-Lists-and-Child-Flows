@@ -11,7 +11,7 @@ Child Flows are simply subroutines that exist as a separate flow but can only be
   "links": [
     {
       "title": "Video Walk-through",
-      "destination": "pending"
+      "destination": "https://www.youtube.com/watch?v=dOH8mjK8gYQ"
     },
     {
       "title": "Setup Documentation",
